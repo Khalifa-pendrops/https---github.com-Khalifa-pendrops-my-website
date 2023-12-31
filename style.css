@@ -27,11 +27,15 @@ body {
     display: none;
 }
 
-.head-right {
+.menu {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .625rem;
+}
+
+.menu-open {
+    display: block;
 }
 
 ul a {
@@ -125,7 +129,6 @@ ul li {
 
 .second-set {
     margin-top: .2rem;
-    margin-bottom: 4rem;
 }
 
 .image-position3 {
@@ -140,8 +143,8 @@ ul li {
     position: absolute;
     width: 25rem;
     height: 31.25rem;
-    top: 135.5%;
-    left: 51%;
+    top: 132%;
+    left: 50%;
     display: block;
     object-fit: cover;
 }
@@ -156,7 +159,7 @@ ul li {
 }
 
 .p3 {
-    width: 16rem;
+    width: 16.9rem;
 }
 
 .para {
