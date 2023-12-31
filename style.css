@@ -143,7 +143,7 @@ ul li {
     position: absolute;
     width: 25rem;
     height: 31.25rem;
-    top: 132%;
+    top: 133%;
     left: 50%;
     display: block;
     object-fit: cover;
@@ -151,7 +151,7 @@ ul li {
 
 .image-set2,
 .image-set3 {
-    margin: 2rem 20rem;
+    margin: 4rem 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;
