@@ -335,11 +335,11 @@ color: #959595;
         margin-right: .8rem;
     }
 
-    .menu{
+    /* .menu{
         display: flex;
         flex-direction: column;
         gap: 1rem;
-    }
+    } */
 
     .heading {
         width: auto;
