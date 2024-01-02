@@ -211,6 +211,120 @@ ul li {
     background: linear-gradient(to right, rgb(19, 71, 19), rgb(87, 87, 52));
 }
 
+/* for contact page */
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    gap: 1rem;
+}
+.general-class{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    gap: .6rem;
+}
+textarea::placeholder{
+    padding: .2rem .5rem;
+}
+button{
+    padding: .5rem 2rem;
+    border-radius: 2px;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 10rem;
+}
+button:hover{
+    background: linear-gradient(to right, rgb(15, 94, 94), rgb(14, 82, 14)); 
+}
+button a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.621);
+}
+
+label{
+    font-weight: bolder;
+    color: #959595;
+}
+textarea{
+    width: 400px;
+    height: 150px;
+    border: none;
+    border-radius: 2px;
+}
+input{
+    width: auto;
+    height: 2rem;
+    border: none;
+    border-radius: 2px;
+}
+textarea:hover, input:hover{
+    background: linear-gradient(to right, rgb(15, 94, 94), rgb(14, 82, 14))
+}
+
+/* for thank you page */
+.thank-you-text{
+    color: #959595;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.back-to-home{
+    border-radius: 3px;
+    border: 2px solid white;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.back-to-home a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.back-to-home:hover{
+background: linear-gradient(to right, rgb(15, 94, 94), rgb(14, 82, 14));
+color: #959595;
+}
+
+/* for work page */
+.work-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; 
+  height: 100dvh;
+  gap: 2rem;
+  padding: 5rem; 
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+}
+.item-1, .item-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.work-container p{
+    color: #959595;
+}
+.back-home{
+    border: 1px solid white;
+    width: fit-content;
+    padding: .5rem 1rem;
+    border-radius: 2px;
+    margin-left: 6rem;
+}
+.back-home a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.back-home:hover{
+    background-color: rgb(101, 95, 95);
+}
 
 
 /* Media Query for screen size */
