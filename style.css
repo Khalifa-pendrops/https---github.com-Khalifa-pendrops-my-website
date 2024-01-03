@@ -31,7 +31,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: .625rem;
+    gap: 1rem;
+    font-size: 1.3rem;
 }
 
 ul a {
@@ -331,6 +332,7 @@ color: #959595;
 @media screen and (max-width: 414px) {
     .menu-toggle {
         display: flex;
+        padding: .5rem;
     }
     .menu{
         display: none;
@@ -442,7 +444,27 @@ color: #959595;
         align-items: center;
     }
 
-
-
+    /* for contact page */
+.form-container{
+    width: 400px;
+    margin-left: .35rem;
+}
+ 
+/* for work page */
+.work-container{
+    width: 400px;
+    margin: .42rem;
+}
+.back-home{
+    margin-left: 7.5rem;
+}
+.item-2 p{
+    text-align: center;
+    width: 21.8rem;
+    line-height: 1.4rem;
+}
+.footer-text{
+    font-size: .58rem;
+}
 
 }
