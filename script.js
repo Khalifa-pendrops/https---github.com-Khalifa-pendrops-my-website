@@ -1,16 +1,17 @@
-// // Make reference to the icon and menu in the HTML
-// const myIcon = document.querySelector(".menu-toggle");
-// const myMenu = document.querySelector("nav");
+// Make reference to the icon and menu in the HTML
+const myIcon = document.querySelector(".menu-toggle");
+const myMenu = document.querySelector(".menu");
 
-// // Add event listener
-// myIcon.addEventListener("click", function () {
-//   // Toggle the menu-open CSS class to either show or hide the menu
-//   if (myMenu.style.display === "none") {
-//     myMenu.style.display = "block";
-//   } else {
-//     myMenu.style.display = "none";
-//   }
-// });
+// Add event listener
+myIcon.addEventListener("click", function () {
+  // Toggle the menu-open CSS class to either show or hide the menu
+  if (myMenu.style.display === "none") {
+    myMenu.style.display = "block";
+    myIcon.style.display = "none";
+  } else {
+    myMenu.style.display = "none";
+  }
+});
 
 //for contact page
 function onclick() {

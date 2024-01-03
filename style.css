@@ -332,25 +332,20 @@ color: #959595;
     .menu-toggle {
         display: flex;
     }
-
     .menu{
         display: none;
         flex-direction: column;
-        gap: 1rem;
+        gap: 2rem;
     }
-
     .heading {
-        width: 413px;
-        
+        width: 413px;   
     }
-
     .container {
         width: 400px;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-
     .main-content {
         display: flex;
         flex-direction: column-reverse;
